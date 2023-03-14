@@ -1,38 +1,185 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Libre Baskerville", serif;
+}
+
+.home,
+.rooms,
+.contact,
+.sign-up {
+  display: flex;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+}
+
+/* ABOUT Page */
+.about {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  background-color: #f1ebe3;
+  color: #000;
+  justify-content: center;
+}
+.about-container > h2 {
   text-align: center;
+  margin: 25px auto 25px;
+  width: 60%;
+  font-size: 3rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.about-container > p {
+  text-align: justify;
+  width: 60%;
+  font-size: 1rem;
+  margin: 25px auto 25px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.delayed-text {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-delay: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Rooms Page */
+.rooms {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  background-color: #f1ebe3;
+  color: #000;
+  justify-content: center;
+}
+.rooms > h2 {
+  text-align: center;
+  margin: 10px auto 10px;
+  width: 60%;
+  font-size: 3rem;
+}
+
+.rooms > p {
+  text-align: justify;
+  font-size: 1rem;
+  margin: 10px auto 10px;
+  color: #ffbc00;
+}
+
+/* Contact Page */
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-color: #f1ebe3;
+}
+
+.contact-header {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 150px;
 }
 
-.App-link {
-  color: #61dafb;
+.contact-header > h2 {
+  text-align: center;
+  margin: 10px auto 10px;
+  width: 100%;
+  font-size: 3rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contact-header > p {
+  text-align: justify;
+  font-size: 1rem;
+  margin: 10px auto 10px;
+  color: #ffbc00;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  padding: 50px 0;
+  font-size: 1rem;
+}
+
+.contact-address,
+.contact-email,
+.contact-phone {
+  flex: 1;
+  text-align: center;
+}
+
+.contact-address h3,
+.contact-email h3,
+.contact-phone h3 {
+  margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-info {
+    flex-direction: column;
   }
-  to {
-    transform: rotate(360deg);
+
+  .contact-address,
+  .contact-email,
+  .contact-phone {
+    margin-bottom: 30px;
   }
 }
+
+/* .about-content, .about-title{
+  margin-bottom: 10px;
+  letter-spacing: 1.1px;
+  font-size: 1rem;
+  font-weight: 600;
+  width: 60%;
+  text-align: justify;
+  text-align-last: center;
+} */
+
+/* .services {
+  background-image: url('/images/img-2.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url('/images/img-1.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('/images/img-8.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+} */
