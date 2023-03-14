@@ -8,7 +8,7 @@ function Rooms() {
             <div className='rooms'>
                 <h2>OUR ROOMS</h2>
                 <p>IN RAIA HOTEL KUCHING</p>
-                <h2>Spaciously designed 237 guestrooms and suites, furnished with a choice of King size or twin bedded, full air-conditioned, LCD TV with satellite news and entertainment channels. Complimentary airport shuttle provided for the convenience of our guest.</h2>
+                <p className='rooms-content'>Spaciously designed 237 guestrooms and suites, furnished with a choice of King size or twin bedded, full air-conditioned, LCD TV with satellite news and entertainment channels. Complimentary airport shuttle provided for the convenience of our guest.</p>
             </div>
             <Footer />
         </>

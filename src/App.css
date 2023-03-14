@@ -64,11 +64,11 @@
   height: 90vh;
   background-color: #f1ebe3;
   color: #000;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .rooms > h2 {
   text-align: center;
-  margin: 10px auto 10px;
+  margin: 50px auto 10px;
   width: 60%;
   font-size: 3rem;
 }
@@ -78,6 +78,11 @@
   font-size: 1rem;
   margin: 10px auto 10px;
   color: #ffbc00;
+}
+
+p.rooms-content {
+  width: 50%;
+  color: #000;
 }
 
 /* Contact Page */
@@ -146,6 +151,30 @@
     margin-bottom: 30px;
   }
 }
+
+.map-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-container {
+  margin: auto;
+  align-items: center;
+}
+
+.social-container > h3 {
+  font-size: 3rem;
+  margin-right: 50px;
+}
+
+.social-container {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+}
+
 
 /* .about-content, .about-title{
   margin-bottom: 10px;
