@@ -1,4 +1,3 @@
-// TODO: Add a map, contact, address
 import React from 'react'
 import '../../App.css'
 import Footer from '../Footer'
@@ -40,7 +39,6 @@ function Contact() {
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.4685390558643!2d110.33746431527949!3d1.4904074615216032!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fba7b7f0cfdbc9%3A0xd7978523d1b2775!2sRaia%20Hotel%20%26%20Convention%20Centre%20Kuching!5e0!3m2!1sen!2smy!4v1678807049464!5m2!1sen!2smy" width="600" height="450" style={{ border: 0 }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Map"></iframe>
             </div>
             <Footer />
-
         </>
 
     )
