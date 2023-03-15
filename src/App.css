@@ -61,7 +61,7 @@
 .rooms {
   display: flex;
   flex-direction: column;
-  height: 90vh;
+  height: 40vh;
   background-color: #f1ebe3;
   color: #000;
   justify-content: flex-start;
@@ -175,6 +175,10 @@ p.rooms-content {
   font-size: 3rem;
 }
 
+.rooms__container {
+  display: flex;
+  justify-content: space-between;
+}
 
 /* .about-content, .about-title{
   margin-bottom: 10px;
