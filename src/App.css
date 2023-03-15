@@ -85,6 +85,16 @@ p.rooms-content {
   color: #000;
 }
 
+.rooms__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: auto;
+  padding: 25px;
+  background-color: #f1ebe3;
+}
+
 /* Contact Page */
 .contact {
   display: flex;
@@ -175,10 +185,7 @@ p.rooms-content {
   font-size: 3rem;
 }
 
-.rooms__container {
-  display: flex;
-  justify-content: space-between;
-}
+
 
 /* .about-content, .about-title{
   margin-bottom: 10px;
